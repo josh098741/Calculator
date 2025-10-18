@@ -19,7 +19,7 @@ function Home(){
     const handleCalculate = () => {
         try{
             setInput(eval(input).toString())
-        }catch(error){
+        }catch{
             setInput("error")
         }
     }
